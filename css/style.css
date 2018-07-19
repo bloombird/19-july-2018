@@ -1,13 +1,9 @@
 div {
    /*
-   First defines x distance; can be negative
-   Second defines y distance; can be negative
-   Third defines blue; cannot be negative (optional; default: 0)
-   Fourth is color (optional; default: whatever color is)
+   0 or 0%: Unchanged
+   1 or 100%: Fully grayscale
    */
-   filter: drop-shadow(25px 25px);
-   filter: drop-shadow(25px 25px 20px);
-   filter: drop-shadow(25px 25px 20px pink);
+   filter: grayscale(.8);
 
    transition: .2s
    /*background-color: #f004;*/
