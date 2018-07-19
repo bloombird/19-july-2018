@@ -1,10 +1,9 @@
 div {
-
    /*
-   0 or 0%: Solid gray
+   0 or 0%: Fully grayscale, like grayscale(0);
    1 or 100%: Unchanged
-   */
-   filter: contrast(100000);
+    */
+   filter: saturate(50000);
 
    transition: .2s
    /*background-color: #f004;*/
