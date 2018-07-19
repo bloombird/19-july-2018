@@ -1,9 +1,5 @@
 div {
-   /*
-   0 or 0%: Unchanged
-   1 or 100%: Full sepia
-   */
-   filter: sepia(1);
+   filter: invert(1);
 
    transition: .2s
    /*background-color: #f004;*/
