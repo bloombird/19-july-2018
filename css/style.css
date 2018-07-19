@@ -1,10 +1,10 @@
 div {
 
    /*
+   0 or 0%: Solid gray
    1 or 100%: Unchanged
-   0 or 0%: Full black
    */
-   filter: brightness(.5);
+   filter: contrast(100000);
 
    transition: .2s
    /*background-color: #f004;*/
