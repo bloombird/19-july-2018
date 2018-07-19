@@ -1,0 +1,14 @@
+div {
+   /*
+   0px: Unchanged
+   10px: Pretty blurred
+   */
+   filter: blur(10px);
+
+   transition: .2s
+   /*background-color: #f004;*/
+}
+
+div:hover {
+   filter: none;
+}
