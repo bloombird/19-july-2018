@@ -1,9 +1,13 @@
 div {
    /*
-   1 or 100%: Untouched
-   0 or 0%: Full transparent;
+   First defines x distance; can be negative
+   Second defines y distance; can be negative
+   Third defines blue; cannot be negative (optional; default: 0)
+   Fourth is color (optional; default: whatever color is)
    */
-   filter: opacity(25%);
+   filter: drop-shadow(25px 25px);
+   filter: drop-shadow(25px 25px 20px);
+   filter: drop-shadow(25px 25px 20px pink);
 
    transition: .2s
    /*background-color: #f004;*/
