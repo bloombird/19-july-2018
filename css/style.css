@@ -1,5 +1,5 @@
 div {
-   filter: invert(1);
+   filter: hue-rotate(90deg);
 
    transition: .2s
    /*background-color: #f004;*/
