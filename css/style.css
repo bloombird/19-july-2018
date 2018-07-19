@@ -1,9 +1,9 @@
 div {
    /*
-   0px: Unchanged
-   10px: Pretty blurred
+   1 or 100%: Untouched
+   0 or 0%: Full transparent;
    */
-   filter: blur(10px);
+   filter: opacity(25%);
 
    transition: .2s
    /*background-color: #f004;*/
