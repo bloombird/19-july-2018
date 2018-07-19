@@ -1,9 +1,9 @@
 div {
    /*
    0 or 0%: Unchanged
-   1 or 100%: Fully grayscale
+   1 or 100%: Full sepia
    */
-   filter: grayscale(.8);
+   filter: sepia(1);
 
    transition: .2s
    /*background-color: #f004;*/
